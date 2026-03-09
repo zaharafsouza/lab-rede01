@@ -59,3 +59,34 @@ Gateway:192.168.0.1
 | PC1 | Reserva DHCP | 192.168.0l.101 | IP reservado pelo roteador |
 | PC2 | DHCP | Automatico | IP reservado pelo roteador
 | PC3 | DHCP | Automatico | IP reservado pelo roteador    
+
+**Observação**
+
+- A impressora e um dos notebooks utilizam reservas DHCP.
+- O roteador sempre atribui o mesmo endereço IP a esses dispositivos
+
+   --
+
+  ## 5. Implementação no laboratório real
+
+   Após a intalação, a rede foi montada fisícamente no laboratório
+  
+  Etapas realizadas:
+
+  (fotos- capturas de tela realizadas durante o laboratório)
+
+  Testes:
+
+  (fotos- capturas de tela realizadas durante o laboratório)
+
+  -----
+
+  ## Conclusão
+
+Este laboratório permitiu compreender o funcionamento de uma rede local simples, incluindo:
+
+-Estrutura de uma rede domestica ou de pequenos escritorios   
+-Utilização de um roteador com a porta WAN e portas LAN  
+-Comunicação entre dispositivos na rede local   
+-Utilização de uma impressora de rede 
+-Compartilhamentos de pasta de redes  
