@@ -28,6 +28,16 @@ Diagrama lógico de rede utilizados neste laboratório
 ```mermaid
 graph TD
 
-teste1 ---> teste2
+WAN(Internet / WAN do Provedor)
+
+Router(Roteador Wiriless<br>1 Porta WAN<br> 4 portas LAN)
+
+PC1(notebook 1)
+PC2(notebook 2)
+PC3(notebook 3)
+
+Printer(Impressora de rede)
+
+
 ```
     
