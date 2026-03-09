@@ -29,7 +29,7 @@ Diagrama lógico de rede utilizados neste laboratório
 graph TD
 
 WAN(Internet / WAN do Provedor)
-
+--> |Porta WAN| Router
 Router(Roteador Wiriless<br>1 Porta WAN<br> 4 portas LAN)
 
 PC1(notebook 1)
@@ -38,6 +38,9 @@ PC3(notebook 3)
 
 Printer(Impressora de rede)
 
-
+Router --> |LAN 1| PC1
+Router --> |LAN 2| PC2
+Router --> |LAN 3| PC3
+Router --> |LAN 4| Printer
 ```
     
